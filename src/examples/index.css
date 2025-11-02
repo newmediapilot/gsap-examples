@@ -1,0 +1,31 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+
+@tailwind utilities;
+
+:root {
+    --default-font-family: "Lato", sans-serif;
+}
+
+section {
+    @apply h-[200vh] w-[100%] relative;
+}
+
+article {
+    @apply p-4 sticky h-[100vh] top-[0px];
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 900;
+    font-style: normal;
+}
+
+b {
+    font-weight: 900;
+    font-style: normal;
+}
+
+em {
+    font-weight: 100;
+    font-style: italic;
+}

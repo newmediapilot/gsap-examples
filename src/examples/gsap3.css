@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+.gsap3 {
+    @apply text-[#fff];
+
+    article {
+        @apply flex flex-col justify-center items-center;
+        background: linear-gradient(to right, #81aef6, #748b18);
+    }
+
+    h1 {
+        @apply text-center;
+        @apply py-[1rem];
+    }
+
+    p {
+        @apply text-center;
+    }
+}

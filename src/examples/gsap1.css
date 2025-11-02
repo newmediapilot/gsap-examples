@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+.gsap1 {
+    @apply text-[#fff];
+    span {
+        @apply inline-block;
+    }
+    article {
+        @apply flex flex-col justify-center items-center;
+        background: linear-gradient(to right,#06cdf0,#81056b);
+    }
+    h1 {
+        @apply text-center;
+        @apply inline-block mb-[5vh];
+    }
+    p {
+        @apply text-center overflow-hidden;
+    }
+}

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+.gsap2 {
+    article {
+        @apply grid grid-cols-4 grid-rows-3 gap-4;
+        background: linear-gradient(to right, #13d281, #ec6532);
+
+        div {
+            background: #fff;
+        }
+    }
+}
