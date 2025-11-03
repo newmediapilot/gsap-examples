@@ -7,17 +7,119 @@
     --default-font-family: "Lato", sans-serif;
 }
 
+/** debugging **/
+body {
+    .gsap-marker-scroller-end,
+    .gsap-marker-scroller-start,
+    .gsap-marker-start,
+    .gsap-marker-end {
+        display:none !important;
+    }
+}
+
+/** font quality **/
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-text-stroke: 0.2px transparent;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    max-width: 100%;
+}
+
+body{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-size: 10vh 10vh;
+    background-image: repeating-linear-gradient(0deg, #000000, #000000 1vh, #171717 1vh, #171717);
+}
+
+section, slot {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-size: 3vh 3vh;
+    background-image: repeating-linear-gradient(0deg, #000000, #000000 1vh, #171717 1vh, #171717);
+}
+
+main {
+    @apply px-2;
+    @apply sm:px-4;
+    @apply md:px-6;
+    @apply lg:px-8;
+    @apply xl:px-10;
+    @apply 2xl:px-12;
+}
+
 section {
     @apply h-[200vh] w-[100%] relative;
 }
 
+slot {
+    @apply block sticky h-[100vh] w-[100%] top-[0px];
+    @apply px-2;
+    @apply sm:px-4;
+    @apply md:px-6;
+    @apply lg:px-8;
+    @apply xl:px-10;
+    @apply 2xl:px-12;
+}
+
 article {
-    @apply p-4 sticky h-[100vh] top-[0px];
+    width: inherit;
+    height: inherit;
+    @apply px-2;
+    @apply sm:px-4;
+    @apply md:px-6;
+    @apply lg:px-8;
+    @apply xl:px-10;
+    @apply 2xl:px-12;
+}
+
+h1, h2, h3, h4, h5, p {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: 900;
     font-style: normal;
+}
+
+p {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 8em;
+}
+
+h2 {
+    font-size: 7em;
+}
+
+h3 {
+    font-size: 6em;
+}
+
+h4 {
+    font-size: 5em;
+}
+
+h5 {
+    font-size: 4em;
+}
+
+sup {
+    font-size: 1em;
+}
+
+sub {
+    font-size: 1em;
 }
 
 b {

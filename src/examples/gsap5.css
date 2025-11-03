@@ -2,8 +2,8 @@
 
 @tailwind utilities;
 
-.gsap1 {
-    @apply h-[140vh];
+.gsap5 {
+    @apply h-[200vh];
     @apply text-[#fff];
 
     span {

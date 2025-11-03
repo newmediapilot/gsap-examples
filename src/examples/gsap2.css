@@ -3,11 +3,11 @@
 @tailwind utilities;
 .gsap2 {
     article {
-        @apply grid grid-cols-4 grid-rows-3 gap-4;
-        background: linear-gradient(to right, #13d281, #ec6532);
-
+        @apply grid gap-8 p-8;
+        @apply grid-cols-4 grid-rows-3;
+        background: linear-gradient(to left,#c5252f,#2657a5);
         div {
-            background: #fff;
+            @apply bg-[#fff] rounded-4xl;
         }
     }
 }

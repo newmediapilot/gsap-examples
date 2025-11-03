@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 .gsap3 {
+    @apply h-[140vh];
     @apply text-[#fff];
 
     article {
