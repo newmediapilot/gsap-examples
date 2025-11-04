@@ -13,7 +13,8 @@ npm i
 npm run start
 ```
 
-### Deployment (`gh-pages`)
+### Deployment
 
-`npm run deploy`
-
+```
+npm run deploy
+```
