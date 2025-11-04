@@ -12,20 +12,22 @@ import './gsap3.ts';
 import './gsap4.ts';
 import './gsap5.ts';
 
-import gsap from 'gsap'
-
-import {ScrollToPlugin} from 'gsap/ScrollToPlugin'
-
-gsap.registerPlugin(ScrollToPlugin)
-
-const scrolLTimeline = gsap.timeline({
-    repeat: -1,
-    yoyo: true,
-})
-
-scrolLTimeline.to(window, {
-    scrollTo: {y: document.body.scrollHeight, autoKill: false},
-    duration: 20,
-    delay: 5,
-    ease: "power1.inOut"
-})
+// import gsap from 'gsap'
+//
+// import {ScrollToPlugin} from 'gsap/ScrollToPlugin'
+//
+// if (window.location.href.includes("scroll=true")) {
+//     gsap.registerPlugin(ScrollToPlugin)
+//
+//     const scrolLTimeline = gsap.timeline({
+//         repeat: -1,
+//         yoyo: true,
+//     })
+//
+//     scrolLTimeline.to(window, {
+//         scrollTo: {y: document.body.scrollHeight, autoKill: false},
+//         duration: 20,
+//         delay: 5,
+//         ease: "power1.inOut"
+//     })
+// }
