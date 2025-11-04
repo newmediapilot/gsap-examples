@@ -8,7 +8,10 @@ https://newmediapilot.github.io/gsap-examples/
 
 ### Development:
 
-`npm run start`
+```
+npm i
+npm run start
+```
 
 ### Deployment (`gh-pages`)
 
