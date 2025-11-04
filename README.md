@@ -2,6 +2,15 @@
 
 Experimenting with GSAP
 
-View: 
+### Live demo:
 
 https://newmediapilot.github.io/gsap-examples/
+
+### Development:
+
+`npm run start`
+
+### Deployment (`gh-pages`)
+
+`npm run deploy`
+
