@@ -6,11 +6,13 @@ high-performance animations for Flash.
 When Flash declined, GSAP was rewritten in JavaScript (2012), 
 quickly becoming the industry standard for web animation.
 
-#### GSAP boasts some important and useful features:
+#### GSAP features:
 - Scrub animating
-- Timeline animations
-- CSS/JS property animatin
-- Bespoke property animations (such as a 3D model)
+- Timeline composition
+- CSS/JS property animation
+- Bespoke property transitions
+- Scattering, bouncing, 3D transforms
+- No limits but what you can imagine (and time)
 
 #### About this layout
 
