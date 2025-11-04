@@ -40,11 +40,12 @@ It consists of:
 +---------------------------------------------------+
 ```
 
-As the `.container` element scrolls, the `.content` element will get picked up by 
+- As the `.container` element scrolls, the `.content` element will get picked up by 
 `.scrub` as part of the `sticky` positioning.
-
-We use `.scrub` as our `trigger` reference, because it is taller than `100vh`
+- We use `.scrub` as our `trigger` reference, because it is taller than `100vh`
 we can use the overlap to scrub the elemnets inside `.content`;
+- If we want a faster animation you can decrease the height of `.scrub`
+- If we make `.scrub` at `100vh` the animation will be static
 
 ### Live demo:
 
