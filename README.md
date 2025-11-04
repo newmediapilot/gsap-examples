@@ -25,6 +25,27 @@ It consists of:
 - Scrub (`height:>100vh`)
 - Content (`position:sticky`)
 
+```
++-------------------- .container -------------------+
+|          +---------- .scrub ----------+           |
+|          |  +--------------------+    |           |
+|          |  |      .content      |    |           |
+|          |  +--------------------+    |           |
+|          +----------------------------+           |
+|          +---------- .scrub ----------+           |
+|          |  +--------------------+    |           |
+|          |  |      .content      |    |           |
+|          |  +--------------------+    |           |
+|          +----------------------------+           |
++---------------------------------------------------+
+```
+
+As the `.container` element scrolls, the `.content` element will get picked up by 
+`.scrub` as part of the `sticky` positioning.
+
+We use `.scrub` as our `trigger` reference, because it is taller than `100vh`
+we can use the overlap to scrub the elemnets inside `.content`;
+
 ### Live demo:
 
 https://newmediapilot.github.io/gsap-examples/
